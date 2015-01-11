@@ -62,7 +62,7 @@
   Url                      = {http://deeplearning.net/tutorial/gettingstarted.html}
 }
 
-@Article{Bengio2012b,
+@Article{Bengio2012a,
   Title                    = {Unsupervised Feature Learning and Deep Learning: {A} Review and New
  Perspectives},
   Author                   = {Yoshua Bengio and
