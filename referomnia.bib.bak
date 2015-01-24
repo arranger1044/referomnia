@@ -166,6 +166,20 @@
   Timestamp                = {2015.01.10}
 }
 
+@Article{Bordes2014,
+  Title                    = {A semantic matching energy function for learning with multi-relational data},
+  Author                   = {Bordes, Antoine and Glorot, Xavier and Weston, Jason and Bengio, Yoshua},
+  Journal                  = {Machine Learning},
+  Year                     = {2014},
+  Number                   = {2},
+  Pages                    = {233--259},
+  Volume                   = {94},
+
+  Owner                    = {valerio},
+  Publisher                = {Springer},
+  Timestamp                = {2015.01.18}
+}
+
 @Article{Bottou2012,
   Title                    = {Stochastic Gradient Descent Tricks},
   Author                   = {Leon Bottou},
