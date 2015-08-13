@@ -2,6 +2,28 @@
 % Encoding: UTF-8
 
 
+@InProceedings{Davis2010,
+  Title                    = {Bottom-Up Learning of Markov Network Structure.},
+  Author                   = {Davis, Jesse and Domingos, Pedro},
+  Booktitle                = {ICML},
+  Year                     = {2010},
+  Editor                   = {Fürnkranz, Johannes and Joachims, Thorsten},
+  Pages                    = {271-278},
+  Publisher                = {Omnipress},
+
+  Added-at                 = {2010-09-06T00:00:00.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/234f61287a6a8aa24bde05bdea1a53abd/dblp},
+  Crossref                 = {conf/icml/2010},
+  Ee                       = {http://www.icml2010.org/papers/537.pdf},
+  Interhash                = {c098bc32033d157c4486e640cf8c3dd4},
+  Intrahash                = {34f61287a6a8aa24bde05bdea1a53abd},
+  ISBN                     = {978-1-60558-907-7},
+  Keywords                 = {dblp},
+  Owner                    = {valerio},
+  Timestamp                = {2010-09-06T00:00:00.000+0200},
+  Url                      = {http://dblp.uni-trier.de/db/conf/icml/icml2010.html#DavisD10}
+}
+
 @InProceedings{Delalleau2011,
   Title                    = {Shallow vs. Deep Sum-Product Networks.},
   Author                   = {Delalleau, Olivier and Bengio, Yoshua},
@@ -48,6 +70,24 @@
   Timestamp                = {2015.01.10}
 }
 
+@Article{Balakrishnan2011,
+  Title                    = {{Learning generative models for protein fold families}},
+  Author                   = {Balakrishnan, Sivaraman and Kamisetty, Hetunandan and Carbonell, Jaime G. and Lee, Su-In and Langmead, Christopher J.},
+  Journal                  = {Proteins},
+  Year                     = {2011},
+  Number                   = {4},
+  Pages                    = {1061--1078},
+  Volume                   = {79},
+
+  Abstract                 = {{Abstract We introduce a new approach to learning statistical models from multiple sequence alignments (MSA) of proteins. Our method, called GREMLIN (Generative REgularized ModeLs of proteINs), learns an undirected probabilistic graphical model of the amino acid composition within the MSA. The resulting model encodes both the position-specific conservation statistics and the correlated mutation statistics between sequential and long-range pairs of residues. Existing techniques for learning graphical models from MSA either make strong, and often inappropriate assumptions about the conditional independencies within the MSA (e.g., Hidden Markov Models), or else use suboptimal algorithms to learn the parameters of the model. In contrast, GREMLIN makes no a priori assumptions about the conditional independencies within the MSA. We formulate and solve a convex optimization problem, thus guaranteeing that we find a globally optimal model at convergence. The resulting model is also generative, allowing for the design of new protein sequences that have the same statistical properties as those in the MSA. We perform a detailed analysis of covariation statistics on the extensively studied WW and PDZ domains and show that our method out-performs an existing algorithm for learning undirected probabilistic graphical models from MSA. We then apply our approach to 71 additional families from the PFAM database and demonstrate that the resulting models significantly out-perform Hidden Markov Models in terms of predictive accuracy. Proteins 2011; {\copyright} 2011 Wiley-Liss, Inc.}},
+  Owner                    = {valerio},
+  Posted-at                = {2011-05-02 16:24:04},
+  Priority                 = {2},
+  Publisher                = {Wiley Subscription Services, Inc., A Wiley Company},
+  Timestamp                = {2015.02.03},
+  Url                      = {http://dx.doi.org/10.1002/prot.22934}
+}
+
 @Misc{Bengio2013,
   Title                    = {Tutorial on Deep Learning},
 
@@ -73,7 +113,6 @@
 
   Acmid                    = {1658424},
   Address                  = {Hanover, MA, USA},
-  Doi                      = {10.1561/2200000006},
   ISSN                     = {1935-8237},
   Issue_date               = {January 2009},
   Numpages                 = {127},
@@ -1085,6 +1124,30 @@
   Timestamp                = {2015.01.10}
 }
 
+@Article{Meila2000,
+  Title                    = {Learning with mixtures of trees},
+  Author                   = {Marina Meilă and Michael I. Jordan},
+  Journal                  = {Journal of Machine Learning Research},
+  Year                     = {2000},
+  Pages                    = {1--48},
+  Volume                   = {1},
+
+  Owner                    = {valerio},
+  Timestamp                = {2015.02.09}
+}
+
+@InProceedings{Mihalkova2007,
+  Title                    = {Bottom-up learning of Markov logic network structure},
+  Author                   = {Lilyana Mihalkova and Raymond J. Mooney},
+  Booktitle                = {In Proceedings of the Twenty-Fourth International Conference on Machine Learning},
+  Year                     = {2007},
+  Pages                    = {625--632},
+  Publisher                = {ACM Press},
+
+  Owner                    = {valerio},
+  Timestamp                = {2015.02.03}
+}
+
 @TechReport{Minervini2015,
   Title                    = {Efficient Energy-Based Summarization of RDF Knowledge Bases},
   Author                   = {Pasquale Minervini and Nicola Fanizzi and Claudia D'Amato and Floriana Esposito},
@@ -1179,6 +1242,18 @@
   __markedentry            = {[valerio:6]},
   Owner                    = {valerio},
   Timestamp                = {2015.01.10}
+}
+
+@Other{Nath2014a,
+  Title                    = {Learning Tractable Statistical Relational Models},
+  Abstract                 = {Intractable inference has been a major barrier to the wide adoption of statistical relational models. Existing exact methods suffer from a lack of scalability, and approximate methods tend to be unreliable. Sum-product networks (SPNs; Poon and Domingos 2011) are a recently-proposed probabilistic architecture that guarantees tractable exact inference, even on many high-treewidth models. SPNs are a propositional architecture, treating the instances as independent and identically distributed. In this paper, we extend SPNs to the relational setting, resulting in Relational Sum-Product Networks (RSPNs). Previous tractable statistical relational models (Domingos and Webb 2012; Webb and Domingos 2013) defined their models over a pre-determined set of objects, and therefore could not be generalized to new mega-examples. In contrast, RSPNs can be learned and applied to previous unseen examples. We present a learning algorithm for RSPNs; in preliminary experiments, RSPNs outperform Markov Logic Networks (Richardson and Domingos 2006) in both running time and predictive accuracy.},
+  Author                   = {Aniruddh Nath and Pedro Domingos},
+  Conference               = {AAAI Workshops},
+  Keywords                 = {Statistical Relational AI; Lifted Inference; Approximate Inference},
+  Owner                    = {valerio},
+  Timestamp                = {2015.02.04},
+  Url                      = {https://www.aaai.org/ocs/index.php/WS/AAAIW14/paper/view/8793},
+  Year                     = {2014}
 }
 
 @InProceedings{Neal1998,
